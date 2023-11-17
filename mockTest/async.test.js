@@ -33,6 +33,7 @@ describe("async testing", () => {
     } catch (e) {
       // If an error occurs, the test should pass
       expect(e.message).toMatch("it failed lol");
+      
     }
   });
 });
